@@ -1,3 +1,6 @@
+//Little Maid Mob Mod
+//Original Version was created by Kaspy
+
 //0
 ModPE.overrideTexture("images/mob/SackMaid.png","http://i.imgur.com/HDMU4gp.png");
 //1
