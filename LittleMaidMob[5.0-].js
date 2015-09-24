@@ -55,12 +55,20 @@ function entityAddedHook(e){
 	checkMaid(e,Entity.getHealth(e));
 }
 
+function modTick(){
+	cSpawn(Player.getX()+Math.floor(Math.random()*50)-25,Player.getY()+Math.floor(Math.random()*10)-5,Player.getZ()+Math.floor(Math.random*50)-25);
+}
+
 function getD(f){
 	if(f.exsits()){
 		var r=BufferedReader(f);
 		var t=r.readLine();
 		r.close();
 		maids=t.splice(",");
+		for(loop=0;loop<maids.length/use;loop++){
+			maids[loop]=parseInt(maids[loop]);
+			maids[loop+1]=parseInt(maids[loop+1]);
+		}
 	}else{
 		f.createNewFile();
 	}
@@ -68,12 +76,20 @@ function getD(f){
 
 function checkMaid(e,h){
 	if(Math.floor(h/1000000)==219){
-		i=parseInt(toString(h).slice(3,6));
-		if(maids[maids.indexOf(i+1)]==0){
+		var i=parseInt(toString(h).slice(3,6));
+		if(maids[maids.indexOf(i)+1]==0){
 			Entity.setRenderType(e,wmaidRenderType.renderType);
 		}else{
 			Entity.setRenderType(e,maidRenderType.renderType);
 		}
+		Entity.setMobSkin(e,"images/mob/"+maids[maids.indexOf(i)+2]+".png");
+	}
+}
+
+function cSpawn(x,y,z){
+	if(Level.getTile(x,y,z)==0&&Level.getTile(x,y-1,z)!==0){
+		var i=maids.length/use+1;
+		Entity.setHealth(Entity.spawnMob(x,y,z,EntityType.PLAYER),2190000020+i*100);
 	}
 }
 
