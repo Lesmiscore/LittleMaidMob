@@ -65,7 +65,7 @@ function getD(f) {
         var t = r.readLine();
         r.close();
         maids = t.splice(",");
-        for (loop = 0; loop < maids.length / use; loop++) {
+        for (loop = 0; loop < maids.length / use; loop += use) {
             maids[loop] = parseInt(maids[loop]);
             maids[loop + 1] = parseInt(maids[loop + 1]);
         }
