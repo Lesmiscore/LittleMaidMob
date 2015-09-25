@@ -6,41 +6,41 @@ var Environment = android.os.Environment;
 var BufferedReader = java.io.BufferedReader;
 
 //0
-ModPE.overrideTexture("images/mob/SackMaid.png", "http://i.imgur.com/HDMU4gp.png");
+ModPE.overrideTexture("images/mob/SackMaid.png", "https://raw.githubusercontent.com/nao20010128nao/LittleMaidMob/master/assets/SackMaid.png");
 //1
-ModPE.overrideTexture("images/mob/RedMaid.png", "http://i.imgur.com/MkEnefH.png");
+ModPE.overrideTexture("images/mob/RedMaid.png", "https://raw.githubusercontent.com/nao20010128nao/LittleMaidMob/master/assets/RedMaid.png");
 //2
-ModPE.overrideTexture("images/mob/GreenMaid.png", "http://i.imgur.com/PD6FzwY.png");
+ModPE.overrideTexture("images/mob/GreenMaid.png", "https://raw.githubusercontent.com/nao20010128nao/LittleMaidMob/master/assets/GreenMaid.png");
 //3
-ModPE.overrideTexture("images/mob/BeansMaid.png", "http://i.imgur.com/MbbwEe5.png");
+ModPE.overrideTexture("images/mob/BeansMaid.png", "https://raw.githubusercontent.com/nao20010128nao/LittleMaidMob/master/assets/BeansMaid.png");
 //4
-ModPE.overrideTexture("images/mob/LazuliMaid.png", "http://i.imgur.com/kUJ46TX.png");
+ModPE.overrideTexture("images/mob/LazuliMaid.png", "https://raw.githubusercontent.com/nao20010128nao/LittleMaidMob/master/assets/LazuliMaid.png");
 //5
-ModPE.overrideTexture("images/mob/PurpleMaid.png", "http://i.imgur.com/xcbII8o.png");
+ModPE.overrideTexture("images/mob/PurpleMaid.png", "https://raw.githubusercontent.com/nao20010128nao/LittleMaidMob/master/assets/PurpleMaid.png");
 //6
-ModPE.overrideTexture("images/mob/CyanMaid.png", "http://i.imgur.com/SWI21F7.png");
+ModPE.overrideTexture("images/mob/CyanMaid.png", "https://raw.githubusercontent.com/nao20010128nao/LittleMaidMob/master/assets/CyanMaid.png");
 //7
-ModPE.overrideTexture("images/mob/LightMaid.png", "http://i.imgur.com/o7UtWQK.png");
+ModPE.overrideTexture("images/mob/LightMaid.png", "https://raw.githubusercontent.com/nao20010128nao/LittleMaidMob/master/assets/LightMaid.png");
 //8
-ModPE.overrideTexture("images/mob/GrayMaid.png", "http://i.imgur.com/KVJAYJ7.png");
+ModPE.overrideTexture("images/mob/GrayMaid.png", "https://raw.githubusercontent.com/nao20010128nao/LittleMaidMob/master/assets/GrayMaid.png");
 //9
-ModPE.overrideTexture("images/mob/PinkMaid.png", "http://i.imgur.com/eBf5VYS.png");
+ModPE.overrideTexture("images/mob/PinkMaid.png", "https://raw.githubusercontent.com/nao20010128nao/LittleMaidMob/master/assets/PinkMaid.png");
 //10
-ModPE.overrideTexture("images/mob/LimeMaid.png", "http://i.imgur.com/OnvKGPD.png");
+ModPE.overrideTexture("images/mob/LimeMaid.png", "https://raw.githubusercontent.com/nao20010128nao/LittleMaidMob/master/assets/LimeMaid.png");
 //11
-ModPE.overrideTexture("images/mob/YellowMaid.png", "http://i.imgur.com/4w6kILO.png");
+ModPE.overrideTexture("images/mob/YellowMaid.png", "https://raw.githubusercontent.com/nao20010128nao/LittleMaidMob/master/assets/YellowMaid.png");
 //12
-ModPE.overrideTexture("images/mob/BlueMaid.png", "http://i.imgur.com/hHEXSZK.png");
+ModPE.overrideTexture("images/mob/BlueMaid.png", "https://raw.githubusercontent.com/nao20010128nao/LittleMaidMob/master/assets/BlueMaid.png");
 //13
-ModPE.overrideTexture("images/mob/MagentaMaid.png", "http://i.imgur.com/W4dHRVD.png");
+ModPE.overrideTexture("images/mob/MagentaMaid.png", "https://raw.githubusercontent.com/nao20010128nao/LittleMaidMob/master/assets/MagentaMaid.png");
 //14
-ModPE.overrideTexture("images/mob/OrangeMaid.png", "http://i.imgur.com/mB0Q4Bu.png");
+ModPE.overrideTexture("images/mob/OrangeMaid.png", "https://raw.githubusercontent.com/nao20010128nao/LittleMaidMob/master/assets/OrangeMaid.png");
 //15
-ModPE.overrideTexture("images/mob/MealMaid.png", "http://i.imgur.com/T5VoOrQ.png");
+ModPE.overrideTexture("images/mob/MealMaid.png", "https://raw.githubusercontent.com/nao20010128nao/LittleMaidMob/master/assets/MealMaid.png");
 //16
-ModPE.overrideTexture("images/mob/WildMaid.png", "http://i.imgur.com/S2tEQgV.png");
+ModPE.overrideTexture("images/mob/WildMaid.png", "https://raw.githubusercontent.com/nao20010128nao/LittleMaidMob/master/assets/WildMaid.png");
 //17
-ModPE.overrideTexture("images/mob/PokenaruMaid.png", "http://i.imgur.com/o1Du1k2.png");
+ModPE.overrideTexture("images/mob/PokenaruMaid.png", "https://raw.githubusercontent.com/nao20010128nao/LittleMaidMob/master/assets/PokenaruMaid.png");
 
 //219id-00hp
 
