@@ -60,7 +60,7 @@ function modTick() {
 }
 
 function getD(f) {
-    if (f.exsits()) {
+    if (f.exists()) {
         var r = BufferedReader(f);
         var t = r.readLine();
         r.close();
